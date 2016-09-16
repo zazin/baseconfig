@@ -1,3 +1,4 @@
+<?php 
 class Baseconfig {
   public $var = '';
 	public function get()
@@ -10,3 +11,5 @@ class Baseconfig {
 		return $this->var;
 	}
 }
+
+?>
