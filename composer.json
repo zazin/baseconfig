@@ -17,6 +17,7 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "classmap" : ["/"]
-    }
+        "psr-0": { "zazin\\Baseconfig": "" }
+    },
+    "target-dir": "zazin/baseconfig"
 }
